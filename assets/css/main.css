@@ -1663,12 +1663,15 @@ header > p {
 
 .image img {
 	display: block;
+	height: calc(100% - 2rem);
 	width: 100%;
+	object-fit: cover;
 }
 
 .image.fit {
 	display: block;
 	width: 100%;
+	height: calc(100% - 6rem);
 }
 
 .image.featured {
